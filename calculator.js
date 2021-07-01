@@ -34,12 +34,12 @@ var computerscience11=parseInt((cs11.value),10);
 var average10=((highestmark1+highestmark2+highestmark3)/300)*50;
 
 //calculating 12 marks
-var tamil12=average10+30+(tamil11*0.2);
-var english12=average10+30+(english11*0.2);
-var maths12=average10+30+(maths11*0.2);
-var chemistry12=average10+30+(chemistry11*0.2);
-var physics12=average10+30+(pyhsics11*0.2);
-var computerscience12=average10+30+(computerscience11*0.2);
+var tamil12=average10+30+((tamil11/90)*20);
+var english12=average10+30+((english11/90)*20);
+var maths12=average10+30+((maths11/90)*20);
+var chemistry12=average10+30+((chemistry11/70)*20);
+var physics12=average10+30+((pyhsics11/70)*20);
+var computerscience12=average10+30+((computerscience11/70)*20);
 var total=tamil12+english12+maths12+chemistry12+physics12+computerscience12;
 var cuttoff=maths12+((chemistry12+physics12)/2);
 
